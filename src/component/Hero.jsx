@@ -39,7 +39,7 @@ const Hero = () => {
       {/* RIGHT IMAGE */}
       <div className="absolute right-50 bottom-0 z-10">
         <img
-          src="../public/images/image.png" // put image in public folder
+          src="../src/assets/image.png" // put image in public folder
           alt="profile"
           className="h-[90vh] object-contain "
         />
@@ -109,7 +109,7 @@ const Hero = () => {
         {/* RIGHT IMAGE */}
         <div className="flex justify-center">
           <img
-            src="../public/images/coding-vibe.png" // put your image in public folder
+            src="../src/assets/coding-vibe.png" // put your image in public folder
             alt="about"
             className="w-[400px] md:w-[500px]"
           />
