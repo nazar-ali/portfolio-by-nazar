@@ -3,6 +3,7 @@ import Navbar from "./component/Navbar";
 import Hero from "./component/Hero";
 import Skills from "./component/Skill";
 import Footer from "./component/Footer";
+import Projects from "./component/Projects";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       {activePage === "home" && <Hero />}
       {/* {activePage === "about" && <About />} */}
       {activePage === "skills" && <Skills />}
+      {activePage === "projects" && <Projects />}
       {/* {activePage === "contact" && <Contact />} */}
       <Footer />
     </>
