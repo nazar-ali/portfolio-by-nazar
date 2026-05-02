@@ -10,11 +10,19 @@ const Navbar = ({ setActivePage }) => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-white/70 backdrop-blur-md shadow-sm z-50">
+    <nav className="fixed top-0 left-0 w-full bg-gray-200 backdrop-blur-md shadow-sm z-50">
       <div className="flex items-center justify-between px-6 md:px-16 py-4">
         
-        {/* LOGO */}
-        <div className="text-xl font-bold">Nazar</div>
+     <div className="flex items-center gap-2">
+  <img
+    src="/images/logo.png"
+    alt="Nazar Logo"
+    className="h-10 w-10 rounded-full w-auto object-contain"
+  />
+  {/* <span className="text-lg font-semibold hidden sm:block">
+    Nazar Ali
+  </span> */}
+</div>
 
         {/* DESKTOP MENU */}
         <ul className="hidden md:flex items-center gap-8 text-gray-800 font-medium">

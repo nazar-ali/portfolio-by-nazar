@@ -4,7 +4,8 @@ import Hero from "./component/Hero";
 import Skills from "./component/Skill";
 import Footer from "./component/Footer";
 import Projects from "./component/Projects";
-
+import Resume from "./component/Resume";
+import Contact from "./component/Contact";
 
 function App() {
   const [activePage, setActivePage] = useState("home");
@@ -17,7 +18,8 @@ function App() {
       {/* {activePage === "about" && <About />} */}
       {activePage === "skills" && <Skills />}
       {activePage === "projects" && <Projects />}
-      {/* {activePage === "contact" && <Contact />} */}
+      {activePage === "resume" && <Resume />}
+      {activePage === "contact" && <Contact />}
       <Footer />
     </>
   );
