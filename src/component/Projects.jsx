@@ -19,12 +19,12 @@ const projects = [
     demo: "https://pig-game-rho-ebon.vercel.app",
   },
   {
-    title: "Fast API Project",
-    image: "/projects/fastapi.png",
+    title: "Ecommerce Website",
+    image: "/images/ecomerce.png", // put your image in public/projects
     description:
-      "FastAPI project built for academic purposes with multiple endpoints and API handling.",
-    github: "https://github.com/yourusername/fastapi-project",
-    demo: "",
+      "A full-featured e-commerce website built with modern web technologies, featuring product listings, shopping cart functionality, and a seamless checkout process.",
+    github: "https://github.com/yourusername/ecommerce-project",
+    demo: "https://ecommerce-system-three-ruby.vercel.app/",
   },
 ];
 
