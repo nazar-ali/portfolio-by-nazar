@@ -13,7 +13,7 @@ const Resume = () => {
       {/* Download Button */}
       <div className="flex justify-center mb-10">
         <a
-          href="/images/Associate_Software_Engineer.pdf" // put your resume in public folder
+          href="/images/Nazar-SoftwareEngineer.pdf" // put your resume in public folder
           download
           className="flex items-center gap-2 bg-black text-white px-6 py-3 rounded-xl hover:bg-gray-800 transition"
         >
@@ -23,14 +23,14 @@ const Resume = () => {
       </div>
 
  
-    <div>
+    {/* <div> */}
 
-    <img
-      src="/images/cv.jpg"
+    {/* <img
+      src="/images/Nazar-SoftwareEngineer.jpg"
       alt="Resume"
       className="w-full object-contain"
       />
-      </div>
+      </div> */}
 
     </section>
   );

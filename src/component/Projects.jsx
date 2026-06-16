@@ -26,6 +26,14 @@ const projects = [
     github: "https://github.com/yourusername/ecommerce-project",
     demo: "https://ecommerce-system-three-ruby.vercel.app/",
   },
+  {
+    title: "Personal Expense Tracker",
+    image: "/images/expense-tracker.png", // put your image in public/projects
+    description:
+      "Personal Expense Tracker is a modern web application designed to help users manage and monitor their daily expenses efficiently. The application allows users to add, edit, delete, and filter expense records while providing meaningful insights through interactive charts and summary statistics.",
+    github: "https://github.com/nazar-ali/BO626-Nazar-Innovaxel-Frontend",
+    demo: "http://bo-626-nazar-innovaxel-frontend-ynr.vercel.app/",
+  },
 ];
 
 const Projects = () => {

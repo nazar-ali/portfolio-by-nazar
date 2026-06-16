@@ -43,7 +43,7 @@ const Hero = () => {
           <div className="flex gap-4 justify-center md:justify-start flex-wrap">
            
            <a
-          href="/images/Associate_Software_Engineer.pdf" // put your resume in public folder
+          href="/images/Nazar-SoftwareEngineer.pdf" // put your resume in public folder
           download
           className="flex items-center gap-2 bg-green-500 text-white px-6 py-3 rounded-xl hover:bg-green-700 transition"
         >
